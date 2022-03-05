@@ -1,0 +1,79 @@
+.review-section {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.review-wrapper {
+    position: relative;
+    overflow: visible;
+    box-sizing: border-box;
+    min-height: 1px;
+    max-width: 100%;
+}
+.reivew-header {
+    text-align: center;
+    position: relative;
+    margin: 3rem 0;
+}
+.reivew-header h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: var(--black-color);
+}
+.review-post {
+    position: relative;
+}
+.review-post p {
+    font-size: 1.8rem;
+    margin-bottom: 1.8rem;
+    color: var(--red-color);
+}
+.form-item {
+    width: 100%;
+}
+.form-item {
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.label {
+    width: 20%;
+    margin-right: 2rem;
+}
+.label label {
+    font-size: 2rem;
+    color: var(--black-color);
+    font-weight: bold;
+}
+.required {
+    color: var(--white-color);
+}
+.fields {
+    width: 70%;
+}
+.textfield {
+    height: 4rem;
+    padding-left: 1rem ;
+    background: none;
+    color: var(--red-color);
+    width: 50%;
+    border: solid .1rem var(--black-color);
+}
+.fields textarea {
+    width: 100%;
+    background: none;
+    border: solid .1rem var(--black-color);
+    padding: 2rem 1rem 0;
+    font-size: 1.6rem;
+    color: var(--red-color);
+    resize: none;
+}
+.submit {
+    width: 70%;
+    display: flex;
+}
+.submit-btn {
+    margin-left: 9rem;
+}
+.submit-btn .btn-readmore {
+    font-size: 1.4rem;
+}

@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiên hiệp quán</title>
+  <link rel="shortcut icon" href="img/amduong.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="css/trangchu.css">
+  <link rel="stylesheet" href="css/header2.css">
+  <link rel="stylesheet" href="css/review.css">
+  <link rel="stylesheet" href="css/reponsive.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+</head>
+<body>
+<script>
+  $(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+      autoHeight:true,
+      loop:true,
+      margin:0,
+      width: 307.5,
+      nav:true,
+      responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:2
+        },
+        1169:{
+            items:4
+        }
+      }
+    })
+  });
+</script>
+<section class="wrapper-boxed">
+  <section class="home">
+    <div class="home-img">
+      <a href="index.html">
+        <img class="home-img-header" src="img/LogoTHQ.jpg" alt="">
+      </a>
+    </div>
+    <div class="nav-wrapper">
+      <div class="nav-container">
+        <div class="nav">
+          <div class="container">
+            <div class="button-mb">
+              <div class="fas fa-bars" id="menu-btn"></div>
+            </div>
+            <ul class="menu">
+              <div class="menu-img">
+                <a href="index.html">
+                  <img src="img/LogoTHQ.jpg" alt=""
+                ></a>
+              </div>
+              <li class="menu-item">
+                <a href="#">
+                  Phân loại
+                  <i class="bi bi-chevron-down"></i>
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">Tiên Hiệp</a></li>
+                  <li><a href="#">Đô Thị </a></li>
+                  <li><a href="#">Huyễn Huyền</a></li>
+                  <li><a href="#">Võng Du</a></li>
+                  <li><a href="#">Ngôn Tình</a></li>
+                  <li><a href="#">Quân Sự</a></li>
+                  <li><a href="#">Tàng Thư Các</a></li>
+                </ul>
+              </li>
+              <li class="menu-item"><a href="bangxephang.html">Bảng xếp hạng</a></li>
+              <li class="menu-item"><a href="caunoihay.html">Câu nói hay</a></li>
+              <li class="menu-item current-menu-item"><a href="Review.html">Viết review của bạn</a></li>
+            </ul>
+            <div class="menu-social">
+              <div class="header-social">
+                <a href="https://www.facebook.com/profile.php?id=100072981851698" target="blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://github.com/BuiQuocLam" target="blank"><i class="bi bi-github"></i></a>
+              </div>
+              <!-- <div class="top-search">
+                <i class="bi bi-search"></i>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<section class="review-section">
+  <div class="review-wrapper">
+    <div class="reivew-header">
+      <h1>viết review của bạn</h1>
+    </div>
+    <div class="review-post">
+      <div class="post-content">
+        <p>Các bạn có thể chia sẻ truyện, viết review, cảm nhận hoặc <strong>bất cứ thứ gì bạn thích</strong> ở đây.!!</p>
+        <p>Nếu thấy hay, thú vị mình sẽ đăng lên web và fanpage để chia sẻ với mọi người.!</p>
+        <p>Rất mong nhận được nhiều sự ủng hộ của các bạn!</p>
+        <form action="" class="review-form">
+          <ul class="form-box">
+            <li class="form-item">
+              <div class="label">
+                <label for="1917">Tiêu đề
+                  <span class="required">*</span>
+                </label>
+              </div>
+              <div class="fields">
+                <input class="textfield" type="text" name="" id="" placeholder="Nhập tiêu đề bài viết">
+              </div>
+            </li>
+            <li class="form-item">
+              <div class="label">
+                <label for="1917">Nội dung bài viết
+                  <span class="required">*</span>
+                </label>
+              </div>
+              <div class="fields">
+                <textarea placeholder="Viết nội dung ở đây" name="" id="" cols="30" rows="10"></textarea>
+              </div>
+            </li>
+            <li class="form-item">
+              <div class="label">
+                <label for="1917">Người Viết (Bút Danh)
+                  <span class="required">*</span>
+                </label>
+              </div>
+              <div class="fields">
+                <input class="textfield" type="text" name="" id="" placeholder="Bút Danh">
+              </div>
+            </li>
+            <li class="submit">
+              <div class="" style="width: 20%;"></div>
+              <div class="readmore-btn submit-btn">
+                <button class="btn-readmore" href="#">Tạo bài viết</button>
+              </div>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <section class="slider">
+    <div class="slider-wrapper">
+      <div class="owl-carousel">
+        <div class="slider-item"> 
+          <a class="item-img" href="#">
+            <img src="img/top20tienhiep.jpg" alt="">
+          </a>
+          <div class="item-descr">
+            <div class="item-text">
+              <h3><a href="#">Top 20 truyện tiên hiệp có lượt đề cử cao nhất trên...</a></h3>
+            </div>
+          </div>
+        </div>
+        <div class="slider-item"> 
+          <a class="item-img" href="#">
+            <img src="img/img1.jpg" alt="">
+          </a>
+          <div class="item-descr">
+            <div class="item-text">
+              <h3><a href="#">Tổng kết về thế giới truyện Nhĩ Căn sau Tam Thốn Nhân...</a></h3>
+            </div>
+          </div>
+        </div>
+        <div class="slider-item"> 
+          <a class="item-img" href="#">
+            <img src="img/kbsl.jpg" alt="">
+          </a>
+          <div class="item-descr">
+            <div class="item-text">
+              <h3><a href="#">Top 3 truyện thể loại Linh Dị đáng đọc nhất 2021</a></h3>
+            </div>
+          </div>
+        </div>
+        <div class="slider-item"> 
+          <a class="item-img" href="#">
+            <img src="img/img2.jpg" alt="">
+          </a>
+          <div class="item-descr">
+            <div class="item-text">
+              <h3><a href="#">Tổng kết về thế giới truyện Nhĩ Căn sau Tam Thốn Nhân...</a></h3>
+            </div>
+          </div>
+        </div>
+        <div class="slider-item"> 
+          <a class="item-img" href="#">
+            <img src="img/tamthonnhangian.jpg" alt="">
+          </a>
+          <div class="item-descr">
+            <div class="item-text">
+              <h3><a href="#">Tổng kết về thế giới truyện Nhĩ Căn sau Tam Thốn Nhân...</a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section> -->
+<!-- <section class="sidebar-wrapper">
+    <div class="wrapper-main">
+      <div class="wrapper-item">
+          <div class="main-item">
+          <div class="thumbnail">
+            <a href="#" target="blank"><img src="img/img20.jpg" alt=""></a>
+          </div>
+          <div class="box-item">
+            <a href="bangxephang.html" target="blank" class="cat-name">Bảng xếp hạng</a>
+            <h2 class="entry-title">
+              <a href="#">Bảng xếp hạng qidian, zongheng tháng 01/2022</a>
+            </h2>
+            <div class="entry-date">1 Tháng Hai, 2022</div>
+          </div>
+          <div class="content-box">
+            <p>Chào các đạo hữu, nhân dịp năm mới Ngũ Gia cũng xin kính chúc các đạo hữu sẽ gặp thật nhiều kỳ ngộ như ý, thân thể kiện khang, tinh thần vui…</p>
+          </div>
+          <div class="readmore-btn">
+            <button href="#" class="btn-readmore">
+              Xem thêm
+              <i class="faicon bi bi-caret-right-fill"></i>
+            </button>
+          </div>
+          <div class="box-social">
+            <div class="box-social-share">
+              <a href="#" class="post-like">
+                <i class="bi bi-heart-fill"></i>
+                <span class="share">999</span>
+              </a>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https://tienhiep.info/bang-xep-hang-qidian-zongheng-thang-01-2022.html" class="post-fb" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+                <span class="share">Facebook</span>
+              </a>
+              <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20B%E1%BA%A3ng%20x%E1%BA%BFp%20h%E1%BA%A1ng%20qidian%2C%20zongheng%20th%C3%A1ng%2001%2F2022%20-%20https://tienhiep.info/bang-xep-hang-qidian-zongheng-thang-01-2022.html" class="post-twitter" target="_blank">
+                <i class="bi bi-twitter"></i>
+                <span class="share">Twitter</span>
+              </a>
+            </div>
+          </div>
+          </div>
+          <div class="main-item">
+            <div class="thumbnail">
+              <a href="#" target="blank"><img src="img/img4.jpg" alt=""></a>
+            </div>
+            <div class="box-item">
+              <a href="bangxephang.html" target="blank" class="cat-name">Bảng xếp hạng</a>
+              <h2 class="entry-title">
+                <a href="#">Bảng xếp hạng qidian, zongheng tháng 12/2021</a>
+              </h2>
+              <div class="entry-date">1 Tháng Một, 2022</div>
+            </div>
+            <div class="content-box">
+              <p>Chào các đạo hữu, tháng này mình có thay đổi 1 chút về cách viết bảng xếp hạng. Mình đăng luôn top 40 nguyệt phiếu, thay vì chỉ  top 20 như trước,…</p>
+            </div>
+            <div class="readmore-btn">
+              <button href="#" class="btn-readmore">
+                Xem thêm
+                <i class="faicon bi bi-caret-right-fill"></i>
+              </button>
+            </div>
+            <div class="box-social">
+              <div class="box-social-share">
+                <a href="#" class="post-like">
+                  <i class="bi bi-heart-fill"></i>
+                  <span class="share">999</span>
+                </a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://tienhiep.info/bang-xep-hang-qidian-zongheng-thang-12-2021.html" class="post-fb" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                  <span class="share">Facebook</span>
+                </a>
+                <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20B%E1%BA%A3ng%20x%E1%BA%BFp%20h%E1%BA%A1ng%20qidian%2C%20zongheng%20th%C3%A1ng%2001%2F2022%20-%20https://tienhiep.info/bang-xep-hang-qidian-zongheng-thang-01-2022.html" class="post-twitter" target="_blank">
+                  <i class="bi bi-twitter"></i>
+                  <span class="share">Twitter</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="main-item">
+            <div class="thumbnail">
+              <a href="#" target="blank"><img src="img/img5.jpg" alt=""></a>
+            </div>
+            <div class="box-item">
+              <a href="bangxephang.html" target="blank" class="cat-name">Bảng xếp hạng</a>
+              <h2 class="entry-title">
+                <a href="#">Bảng xếp hạng qidian, zongheng tháng 11/2021</a>
+              </h2>
+              <div class="entry-date">1 Tháng 12, 2021</div>
+            </div>
+            <div class="content-box">
+              <p>Bảng xếp hạng tháng này cũng không có gì quá đặc biệt, ngoại trừ tác phẩm Ta Hệ Chữa Trị Du Hí của Ngã Hội Tu Không Điều, đột ngột vươn lên…</p>
+            </div>
+            <div class="readmore-btn">
+              <button href="#" class="btn-readmore">
+                Xem thêm
+                <i class="faicon bi bi-caret-right-fill"></i>
+              </button>
+            </div>
+            <div class="box-social">
+              <div class="box-social-share">
+                <a href="#" class="post-like">
+                  <i class="bi bi-heart-fill"></i>
+                  <span class="share">999</span>
+                </a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://tienhiep.info/bang-xep-hang-qidian-zongheng-thang-12-2021.html" class="post-fb" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                  <span class="share">Facebook</span>
+                </a>
+                <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20B%E1%BA%A3ng%20x%E1%BA%BFp%20h%E1%BA%A1ng%20qidian%2C%20zongheng%20th%C3%A1ng%2001%2F2022%20-%20https://tienhiep.info/bang-xep-hang-qidian-zongheng-thang-01-2022.html" class="post-twitter" target="_blank">
+                  <i class="bi bi-twitter"></i>
+                  <span class="share">Twitter</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="main-item">
+            <div class="thumbnail">
+              <a href="#" target="blank"><img src="img/img6.jpg" alt=""></a>
+            </div>
+            <div class="box-item">
+              <a href="bangxephang.html" target="blank" class="cat-name">Bảng xếp hạng</a>
+              <h2 class="entry-title">
+                <a href="#">Bảng xếp hạng qidian, zongheng tháng 10/2021</a>
+              </h2>
+              <div class="entry-date">4 Tháng 11, 2021</div>
+            </div>
+            <div class="content-box">
+              <p>Đầu tuần vì công việc bận quá nên mình không có thời gian cập nhật bảng xếp hạng, nay mới rãnh tí. Tháng này cũng có khá nhiều bộ mới, không biết…</p>
+            </div>
+            <div class="readmore-btn">
+              <button href="#" class="btn-readmore">
+                Xem thêm
+                <i class="faicon bi bi-caret-right-fill"></i>
+              </button>
+            </div>
+            <div class="box-social">
+              <div class="box-social-share">
+                <a href="#" class="post-like">
+                  <i class="bi bi-heart-fill"></i>
+                  <span class="share">999</span>
+                </a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://tienhiep.info/bang-xep-hang-qidian-zongheng-thang-12-2021.html" class="post-fb" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                  <span class="share">Facebook</span>
+                </a>
+                <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20B%E1%BA%A3ng%20x%E1%BA%BFp%20h%E1%BA%A1ng%20qidian%2C%20zongheng%20th%C3%A1ng%2001%2F2022%20-%20https://tienhiep.info/bang-xep-hang-qidian-zongheng-thang-01-2022.html" class="post-twitter" target="_blank">
+                  <i class="bi bi-twitter"></i>
+                  <span class="share">Twitter</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="main-item">
+            <div class="thumbnail">
+              <a href="#" target="blank"><img src="img/img7.jpg" alt=""></a>
+            </div>
+            <div class="box-item">
+              <a href="bangxephang.html" target="blank" class="cat-name">Bảng xếp hạng</a>
+              <h2 class="entry-title">
+                <a href="#">Bảng xếp hạng qidian, zongheng tháng 9/2021</a>
+              </h2>
+              <div class="entry-date">2 Tháng 10, 2021</div>
+            </div>
+            <div class="content-box">
+              <p>Tháng 9 này có rất nhiều bộ mới xuất hiện, các đạo hữu tha hồ nhảy hố, nhất là bên zongheng (mình có in đậm tên các bộ mới). Một số bộ…</p>
+            </div>
+            <div class="readmore-btn">
+              <button href="#" class="btn-readmore">
+                Xem thêm
+                <i class="faicon bi bi-caret-right-fill"></i>
+              </button>
+            </div>
+            <div class="box-social">
+              <div class="box-social-share">
+                <a href="#" class="post-like">
+                  <i class="bi bi-heart-fill"></i>
+                  <span class="share">999</span>
+                </a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://tienhiep.info/bang-xep-hang-qidian-zongheng-thang-12-2021.html" class="post-fb" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                  <span class="share">Facebook</span>
+                </a>
+                <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20B%E1%BA%A3ng%20x%E1%BA%BFp%20h%E1%BA%A1ng%20qidian%2C%20zongheng%20th%C3%A1ng%2001%2F2022%20-%20https://tienhiep.info/bang-xep-hang-qidian-zongheng-thang-01-2022.html" class="post-twitter" target="_blank">
+                  <i class="bi bi-twitter"></i>
+                  <span class="share">Twitter</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="main-item">
+            <div class="thumbnail">
+              <a href="#" target="blank"><img src="img/img21.jpg" alt=""></a>
+            </div>
+            <div class="box-item">
+              <a href="pltienhiep.html" target="blank" class="cat-name">Tiên Hiệp</a>
+              <h2 class="entry-title">
+                <a href="#">Tổng kết về thế giới truyện Nhĩ Căn sau Tam Thốn Nhân Gian – Sơ Luận – Phần 3 (Cuối)</a>
+              </h2>
+              <div class="entry-date">26 Tháng Chín, 2021</div>
+            </div>
+            <div class="content-box">
+              <p>Tiếp tục phần 2, Tổng kết về thế giới truyện Nhĩ Căn sau Tam Thốn Nhân Gian – Sơ Luận – Phần 2 Thời gian tuyến: – Nói tiếp về Bạch Tiểu…</p>
+            </div>
+            <div class="readmore-btn">
+              <button href="#" class="btn-readmore">
+                Xem thêm
+                <i class="faicon bi bi-caret-right-fill"></i>
+              </button>
+            </div>
+            <div class="box-social">
+              <div class="box-social-share">
+                <a href="#" class="post-like">
+                  <i class="bi bi-heart-fill"></i>
+                  <span class="share">999</span>
+                </a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://tienhiep.info/bang-xep-hang-qidian-zongheng-thang-12-2021.html" class="post-fb" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                  <span class="share">Facebook</span>
+                </a>
+                <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20B%E1%BA%A3ng%20x%E1%BA%BFp%20h%E1%BA%A1ng%20qidian%2C%20zongheng%20th%C3%A1ng%2001%2F2022%20-%20https://tienhiep.info/bang-xep-hang-qidian-zongheng-thang-01-2022.html" class="post-twitter" target="_blank">
+                  <i class="bi bi-twitter"></i>
+                  <span class="share">Twitter</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="main-item">
+            <div class="thumbnail">
+              <a href="#" target="blank"><img src="img/img8.jpg" alt=""></a>
+            </div>
+            <div class="box-item">
+              <a href="plhuyenhuyen.html" target="blank" class="cat-name">Huyền Huyễn</a>
+              <h2 class="entry-title">
+                <a href="#">Review: Ta Chính Là Thần</a>
+              </h2>
+              <div class="entry-date">9 Tháng Chín, 2021</div>
+            </div>
+            <div class="content-box">
+              <p>Truyện: Ta Chính Là Thần Tác giả: Lịch Sử Lý Xuy Xuy Phong Thể loại: Huyền Huyễn (đang ra) Reviewer: (Bạn nào gửi bài này thì comment giúp mình nha, để mình…</p>
+            </div>
+            <div class="readmore-btn">
+              <button href="#" class="btn-readmore">
+                Xem thêm
+                <i class="faicon bi bi-caret-right-fill"></i>
+              </button>
+            </div>
+            <div class="box-social">
+              <div class="box-social-share">
+                <a href="#" class="post-like">
+                  <i class="bi bi-heart-fill"></i>
+                  <span class="share">999</span>
+                </a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://tienhiep.info/bang-xep-hang-qidian-zongheng-thang-12-2021.html" class="post-fb" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                  <span class="share">Facebook</span>
+                </a>
+                <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20B%E1%BA%A3ng%20x%E1%BA%BFp%20h%E1%BA%A1ng%20qidian%2C%20zongheng%20th%C3%A1ng%2001%2F2022%20-%20https://tienhiep.info/bang-xep-hang-qidian-zongheng-thang-01-2022.html" class="post-twitter" target="_blank">
+                  <i class="bi bi-twitter"></i>
+                  <span class="share">Twitter</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="main-item">
+            <div class="thumbnail">
+              <a href="#" target="blank"><img src="img/img9.jpg" alt=""></a>
+            </div>
+            <div class="box-item">
+              <a href="plhuyenhuyen.html" target="blank" class="cat-name">Huyền Huyễn</a>
+              <h2 class="entry-title">
+                <a href="#">Review: Thuật Sư Thủ Sách</a>
+              </h2>
+              <div class="entry-date">4 Tháng Chín, 2021</div>
+            </div>
+            <div class="content-box">
+              <p>Truyện: Thuật Sư Thủ Sách Tác giả: Thính Nhật Thể loại: Kỳ huyễn Tình trạng: Đang ra Reviewer: Bon Giới thiệu: 1668 năm, ta thành phố nơi chỗ bị bầu thành toàn…</p>
+            </div>
+            <div class="readmore-btn">
+              <button href="#" class="btn-readmore">
+                Xem thêm
+                <i class="faicon bi bi-caret-right-fill"></i>
+              </button>
+            </div>
+            <div class="box-social">
+              <div class="box-social-share">
+                <a href="#" class="post-like">
+                  <i class="bi bi-heart-fill"></i>
+                  <span class="share">999</span>
+                </a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://tienhiep.info/bang-xep-hang-qidian-zongheng-thang-12-2021.html" class="post-fb" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                  <span class="share">Facebook</span>
+                </a>
+                <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20B%E1%BA%A3ng%20x%E1%BA%BFp%20h%E1%BA%A1ng%20qidian%2C%20zongheng%20th%C3%A1ng%2001%2F2022%20-%20https://tienhiep.info/bang-xep-hang-qidian-zongheng-thang-01-2022.html" class="post-twitter" target="_blank">
+                  <i class="bi bi-twitter"></i>
+                  <span class="share">Twitter</span>
+                </a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="pagination">
+        <ul class="page-number">
+          <li class="page-number-item">
+            <span class="number current">1</span>
+          </li>
+          <li class="page-number-item">
+            <a href="#" class="number">2</a>
+          </li>
+          <li class="page-number-item">
+            <a href="#" class="number">3</a>
+          </li>
+          <li class="page-number-item">
+            <span class="number dots">...</span>
+          </li>
+          <li class="page-number-item">
+            <a href="#" class="number">24</a>
+          </li>
+          <li class="page-number-item">
+            <a href="#" class="next-page-number">
+              <i class="bi bi-chevron-right"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-item">
+        <div class="sidebar-popular">
+          <h3 class="sidebar-title">
+            <span>Hot trong tháng</span>
+          </h3>
+          <ul class="popular">
+            <li class="popular-item">
+              <span class="order-number">
+                <span class="number-post">1</span>
+              </span>
+              <div class="side-item">
+                <div class="side-img">
+                  <a href="#"><img src="img/img3.jpg" alt=""></a>
+                </div>
+                <div class="side-item-text">
+                  <h4 class="side-title-post">
+                    <a href="#">Bảng xếp hạng qidian, zongheng tháng 01/2022</a>
+                  </h4>
+                  <span class="side-sub-title">
+                    1 Tháng Hai, 2022
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="popular-item">
+              <span class="order-number">
+                <span class="number-post">2</span>
+              </span>
+              <div class="side-item">
+                <div class="side-img">
+                  <a href="#"><img src="img/img14.jpg" alt=""></a>
+                </div>
+                <div class="side-item-text">
+                  <h4 class="side-title-post">
+                    <a href="#">Top 50 truyện tiên hiệp được tìm đọc nhiều nhất cập nhật tháng 11/2018</a>
+                  </h4>
+                  <span class="side-sub-title">
+                    11 Tháng Mười Một, 2018
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="popular-item">
+              <span class="order-number">
+                <span class="number-post">3</span>
+              </span>
+              <div class="side-item">
+                <div class="side-img">
+                  <a href="#"><img src="img/img13.jpg" alt=""></a>
+                </div>
+                <div class="side-item-text">
+                  <h4 class="side-title-post">
+                    <a href="#">So sánh cấp độ tu luyện trong Tiên Nghịch, Cầu Ma, Ngã Dục Phong Thiên, Nhất Niệm Vĩnh Hằng</a>
+                  </h4>
+                  <span class="side-sub-title">
+                    16 Tháng Sáu, 2018
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="popular-item">
+              <span class="order-number">
+                <span class="number-post">4</span>
+              </span>
+              <div class="side-item">
+                <div class="side-img">
+                  <a href="#"><img src="img/img10.jpg" alt=""></a>
+                </div>
+                <div class="side-item-text">
+                  <h4 class="side-title-post">
+                    <a href="#">Tổng hợp những câu nói hay trong Cầu Ma – Nhĩ Căn</a>
+                  </h4>
+                  <span class="side-sub-title">
+                    8 Tháng Một, 2018
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="popular-item">
+              <span class="order-number">
+                <span class="number-post">5</span>
+              </span>
+              <div class="side-item">
+                <div class="side-img">
+                  <a href="#"><img src="img/img11.jpg" alt=""></a>
+                </div>
+                <div class="side-item-text">
+                  <h4 class="side-title-post">
+                    <a href="#">Những bộ truyện tiên hiệp hay nhất đã full</a>
+                  </h4>
+                  <span class="side-sub-title">
+                    26 Tháng Hai, 2017
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="popular-item">
+              <span class="order-number">
+                <span class="number-post">6</span>
+              </span>
+              <div class="side-item">
+                <div class="side-img">
+                  <a href="#"><img src="img/img18.jpg" alt=""></a>
+                </div>
+                <div class="side-item-text">
+                  <h4 class="side-title-post">
+                    <a href="#">Những câu nói hay trong truyện tiên hiệp</a>
+                  </h4>
+                  <span class="side-sub-title">
+                    9 Tháng Một, 2019
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="popular-item">
+              <span class="order-number">
+                <span class="number-post">7</span>
+              </span>
+              <div class="side-item">
+                <div class="side-img">
+                  <a href="#"><img src="img/img15.jpg" alt=""></a>
+                </div>
+                <div class="side-item-text">
+                  <h4 class="side-title-post">
+                    <a href="#">Tổng hợp câu nói hài hước trong Nhất Niệm Vĩnh Hằng</a>
+                  </h4>
+                  <span class="side-sub-title">
+                    12 Tháng Một, 2018
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="popular-item">
+              <span class="order-number">
+                <span class="number-post">8</span>
+              </span>
+              <div class="side-item">
+                <div class="side-img">
+                  <a href="#"><img src="img/img16.jpg" alt=""></a>
+                </div>
+                <div class="side-item-text">
+                  <h4 class="side-title-post">
+                    <a href="#">Review: Trọng tạp chiến xa tại mạt thế</a>
+                  </h4>
+                  <span class="side-sub-title">
+                    24 Tháng Hai, 2017
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="popular-item">
+              <span class="order-number">
+                <span class="number-post">9</span>
+              </span>
+              <div class="side-item">
+                <div class="side-img">
+                  <a href="#"><img src="img/img19.jpg" alt=""></a>
+                </div>
+                <div class="side-item-text">
+                  <h4 class="side-title-post">
+                    <a href="#">Bảng xếp hạng nguyệt phiếu qidian tháng 5/2018</a>
+                  </h4>
+                  <span class="side-sub-title">
+                    1 Tháng Sáu, 2018
+
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="popular-item">
+              <span class="order-number">
+                <span class="number-post">10</span>
+              </span>
+              <div class="side-item">
+                <div class="side-img">
+                  <a href="#"><img src="img/img5.jpg" alt=""></a>
+                </div>
+                <div class="side-item-text">
+                  <h4 class="side-title-post">
+                    <a href="#">Bảng xếp hạng qidian, zongheng tháng 11/2021</a>
+                  </h4>
+                  <span class="side-sub-title">
+                    1 Tháng Mười Hai, 2021
+                  </span>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="comment">
+            <h3 class="sidebar-title">
+              <span>BÌNH LUẬN MỚI</span>
+            </h3>
+            <ul class="comment-wrapper">
+              <li class="comment-item">
+                <span class="comment-author">
+                  Ngũ Gia trong
+                </span>
+                <a href="#" class="comment-link">Bảng xếp hạng qidian, zongheng tháng 01/2022</a>
+              </li>
+              <li class="comment-item">
+                <span class="comment-author">
+                  Bon trong
+                </span>
+                <a href="#" class="comment-link">Bảng xếp hạng qidian, zongheng tháng 01/2022</a>
+              </li>
+              <li class="comment-item">
+                <span class="comment-author">
+                  Đạo trưởng đã tu tiên chưa trong 
+                </span>
+                <a href="#" class="comment-link">Những bộ truyện tiên hiệp hay nhất đã full</a>
+              </li>
+              <li class="comment-item">
+                <span class="comment-author">
+                  Kuhaku trong 
+                </span>
+                <a href="#" class="comment-link">Tổng kết về thế giới truyện Nhĩ Căn sau Tam Thốn Nhân Gian – Sơ Luận – Phần 2</a>
+              </li>
+              <li class="comment-item">
+                <span class="comment-author">
+                  Nhà review có tâm trong
+                </span>
+                <a href="#" class="comment-link">Review: Ta Chính Là Thần</a>
+              </li>
+              <li class="comment-item">
+                <span class="comment-author">
+                  Vô danh trong 
+                </span>
+                <a href="#" class="comment-link">Những câu nói hay ý nghĩa trong truyện tiên hiệp</a>
+              </li>
+              <li class="comment-item">
+                <span class="comment-author">
+                  Hành giả trong 
+                </span>
+                <a href="#" class="comment-link">Những câu nói hay ý nghĩa trong truyện tiên hiệp</a>
+              </li>
+              <li class="comment-item">
+                <span class="comment-author">
+                  trung trong
+                </span>
+                <a href="#" class="comment-link">Review: Thuật Sư Thủ Sách</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</section> -->
+<section class="clear-footer">
+
+</section>
+<section class="footer-section">
+    <div class="container-footer">
+      <div class="footer-social">
+        <ul class="footer-social-wrapper">
+          <li class="footer-social-item">
+            <a href="https://www.facebook.com/profile.php?id=100072981851698" target="_blank">
+              <i class="fa-brands fa-facebook-square"></i>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a href="https://github.com/BuiQuocLam" target="_blank">
+              <i class="fab fa-github">
+
+              </i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-coppyright">
+        <div class="footer-coppyright-item">
+          <p>Created By <span>LâmBắcHuyền Web Designer</span> | <span>Tiên Hiệp Quán</span> </p>
+        </div>
+      </div>
+    </div>
+</section>
+</section>
+<section id="close-nav" class="modal modal-open">
+  <i class="fas fa-times close"></i>
+</section>
+<section class="nav-header-2">
+  <section class="nav-logo">
+    <a href="index.html"><img src="img/LogoTHQ.jpg" alt=""></a>
+  </section>
+  <section class="nav-social">
+    <div class="nav-header-social">
+      <a href="https://www.facebook.com/profile.php?id=100072981851698" target="blank"><i class="bi bi-facebook"></i></a>
+      <a href="https://github.com/BuiQuocLam" target="blank"><i class="bi bi-github"></i></a>
+    </div>
+  </section>
+  <ul class="menu-header-2">
+    <li class="menu-item">
+      <a href="#" class="menu-btn">
+        Phân loại
+        <span class="bi bi-chevron-down indicator first"></span>
+      </a>
+      <ul class="submenu menu-show">
+        <li><a href="#">Tiên Hiệp</a></li>
+        <li><a href="#">Đô Thị </a></li>
+        <li><a href="#">Huyễn Huyền</a></li>
+        <li><a href="#">Võng Du</a></li>
+        <li><a href="#">Ngôn Tình</a></li>
+        <li><a href="#">Quân Sự</a></li>
+        <li><a href="#">Tàng Thư Các</a></li>
+      </ul>
+    </li>
+    <li class="menu-item"><a href="bangxephang.html">Bảng xếp hạng</a></li>
+    <li class="menu-item"><a href="caunoihay.html">Câu nói hay</a></li>
+    <li class="menu-item"><a href="Review.html">Thơ bất hủ</a></li>
+  </ul>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/main.js"></script>
+</body> 
+</html> 

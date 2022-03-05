@@ -1,0 +1,235 @@
+@media screen and (min-width: 961px) and (max-width:1169px) {
+    .slider-item .item-img img {
+        height: 500px;
+    }
+    .item-descr {
+        top: 500px;
+    }
+    .slider-item:hover .item-descr {
+        top: 350px;
+    }
+    .wrapper-boxed {
+        max-width: 1000px;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .nav {
+        max-width: 766px !important;
+    }
+    .button-mb {
+        display: block;
+        margin: 2rem;
+        font-size: 1.8rem;
+        color: #ccc;
+        cursor:  pointer  ;
+        line-height: 4rem;
+    }
+    .nav .menu {
+        display: none;
+     }
+     .submenu {
+         margin: 0;
+     }
+     .modal {
+         display: block;
+     }
+     .nav-header-2 {
+         display: block;
+     }
+     .submenu {
+         display: none;
+     }
+     .nav-header-2 {
+         position: absolute;
+         left: -270px;
+     }
+     .nav-header-2.active {
+         left: 0;
+         transition: .5s ease;
+     }
+     .modal {
+         transition: .5s ease;
+     }
+     .modal.active {
+         transition: .5s ease;
+         opacity: 1;
+         visibility: visible;
+         left: 270px;
+     }
+    .sidebar-wrapper {
+        width: 726px;
+    }
+    .wrapper-main {
+        width: 100%;
+        margin-right: 1rem;
+    }
+    .main-item {
+        margin-right: 1.2rem;
+    }
+    .item-descr {
+        top: 400px;
+    }
+    .slider-item:hover .item-descr {
+        top: 270px;
+    }
+    .sidebar-post-wrapper {
+        width: 100%;
+        padding: 0;
+    }
+    .sidebar {
+        float: left;
+        width: 100%;
+    }
+    .sidebar-title::after {
+        top: 20px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    .wrapper-boxed {
+        max-width: 766px;
+    }
+    .slider-item .item-img img {
+        height: 383px;
+    }
+} 
+
+@media (max-width:767px) {
+    html {
+        font-size: 55%;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .nav {
+        max-width: 520px !important;
+    }
+    .wrapper-boxed {
+        max-width: 520px;
+    }
+    .button-mb {
+        display: block;
+        margin: 2rem;
+        font-size: 1.8rem;
+        color: #ccc;
+        cursor:  pointer  ;
+    }
+    .nav .menu {
+       display: none;
+    }
+    .submenu {
+        margin: 0;
+    }
+    .modal {
+        display: block;
+    }
+    .nav-header-2 {
+        display: block;
+    }
+    .submenu {
+        display: none;
+    }
+    .nav-header-2 {
+        position: absolute;
+        left: -270px;
+    }
+    .nav-header-2.active {
+        left: 0;
+        transition: .5s ease;
+    }
+    .modal {
+        transition: .5s ease;
+    }
+    .modal.active {
+        transition: .5s ease;
+        opacity: 1;
+        visibility: visible;
+        left: 270px;
+    }
+    .menu-header-2 .submenu {
+        /* display: none; */
+    }
+    .submenu.submenu-open {
+        display: block;
+    }
+    .slider-item .item-img img {
+        height: 520px;
+    }
+    .sidebar-wrapper {
+        width: 100%;
+    }
+    .wrapper-main {
+        width: 100%;
+    }
+    .wrapper-item {
+        text-align: center;
+    }
+    .main-item {
+        width: 100%;
+        margin: 0 2rem 10rem;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .sidebar-wrapper {
+        width: 480px;
+    }
+    .item-descr {
+        top: 500px;
+    }
+    .slider-item:hover .item-descr {
+        top: 400px;
+    }
+    .item-descr a {
+        font-size: 3.5rem;
+    }
+    .side-title-post a {
+        font-size: 1.8rem;
+    }
+    .side-sub-title {
+        font-size: 1.4rem;
+    }
+    .comment-item {
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 479px) {
+    html {
+        font-size: 50%;
+    }
+    .nav-header-2 {
+        width: 200px;
+    }
+    .nav-logo img {
+        width: 130px;
+    }
+    .modal.active {
+        left: 200px;
+    }
+    .item-descr {
+        top: 500px;
+    }
+    .slider-item:hover .item-descr {
+        top: 300px;
+    }
+    .item-descr a {
+        font-size: 3rem;
+    }
+    .sidebar-wrapper {
+        max-width: 480px;
+    }
+    .slider-item .item-img img {
+        height: 419px;
+    }
+    .sidebar-popular {
+        margin: 0 1.6rem ;
+    }
+    .sidebar-title::after {
+        top: 125%;
+    }
+    .side-title-post a {
+        font-size: 1.8rem;
+    }
+    .side-sub-title {
+        font-size: 1.4rem;
+    }
+    .comment-item {
+        font-size: 1.8rem;
+    }
+}
